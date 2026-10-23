@@ -1,0 +1,99 @@
+generated: '2026-10-23'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 8
+  own: 8
+  other_domain: 0
+  platform: 0
+  roles:
+  - api
+  - other
+  - website
+hosts:
+- host: airtraffic.indragroup.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: indragroup.com
+  role: other
+  relation: own
+- host: api.indragroup.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: indragroup.com
+  role: api
+  relation: own
+- host: careers.indragroup.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: indragroup.com
+  role: other
+  relation: own
+- host: defence.indragroup.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: indragroup.com
+  role: other
+  relation: own
+- host: mobility.indragroup.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: indragroup.com
+  role: other
+  relation: own
+- host: space.indragroup.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Website
+  serves:
+  - cdn
+  vendor: cloudflare
+  registrable_domain: indragroup.com
+  role: website
+  relation: own
+- host: suppliers.indragroup.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: indragroup.com
+  role: other
+  relation: own
+- host: www.indragroup.com
+  found_by:
+  - pointer
+  types:
+  - Newsroom
+  serves: []
+  registrable_domain: indragroup.com
+  role: other
+  relation: own
